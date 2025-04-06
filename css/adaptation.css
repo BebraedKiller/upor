@@ -1,0 +1,49 @@
+/*  min */
+
+@media (max-width: 650px) {
+    header{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header > img{
+        width: 14vw;
+        height: 7vw;
+    }
+    
+    header > .nav{
+        display: none;
+    }
+
+    header > .inf{
+        width: 55vw;
+    }
+
+    header > .inf > p{
+        display: none;
+    }
+
+    header > .inf > h1{
+        font-size: 2.5vw;
+        margin: 0;
+    }
+    header > button > img{
+        display: none;
+    }
+    header > button{
+        background-image: url(../img/3\ palki.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        border-radius: 0;
+        height: 2vw;
+    }
+    .main_head > p{
+        width: 24vw;
+        font-size: 1.4vw;
+    }
+    .main_catalog > h1{
+        font-size: 2.5vw;
+    }
+
+}
