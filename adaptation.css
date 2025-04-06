@@ -1,0 +1,152 @@
+/* 35 min */
+
+@media (max-width: 650px) {
+    header{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header > img{
+        width: 14vw;
+        height: 7vw;
+    }
+    
+    header > .nav{
+        display: none;
+    }
+
+    header > .inf{
+        width: 55vw;
+    }
+
+    header > .inf > p{
+        display: none;
+    }
+
+    header > .inf > h1{
+        font-size: 2.5vw;
+        margin: 0;
+    }
+
+    header > button > img{
+        display: none;
+    }
+
+    header > button{
+        background-image: url(../img/3\ palki.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        border-radius: 0;
+        height: 2vw;
+    }
+
+    .main_head > p{
+        width: 24vw;
+        font-size: 1.4vw;
+    }
+
+    .main_catalog > h1{
+        font-size: 2.5vw;
+    }
+
+    .main_inf > div > h1{
+        font-size: 2.4vw;
+        margin-bottom: 0;
+    }
+
+    .about{
+        margin-top: 0.3vw;
+        font-size: 1.6vw;
+    }
+
+    .about > button{
+        width: 3.8vw;
+        height: 3.8vw;
+    }
+
+    .main_catalog > .catalog > div > p{
+        font-size: 1.5vw;
+    }
+
+    .main_catalog > .catalog > div > button{
+        grid-column: 3/18;
+        height: 4vw;
+        font-size: 1.4vw;
+        margin-top: -0.8vw;
+    }
+
+    .main_catalog > button{
+        width: 24vw;
+        height: 6vw;
+        font-size: 1.8vw;
+        margin-top: 5vw;
+    }
+
+    .partnership_left > button{
+        width: 24vw;
+        height: 6vw;
+        font-size: 1.8vw;
+    }
+
+    .about_company > h1{
+        font-size: 3vw;
+    }
+
+    .about_company > p{
+        font-size: 1.4vw;
+        margin-top: -2vw;
+        text-align: left;
+    }
+
+    .about_company > p > br{
+        display: none;
+    }
+
+    .about_company > div{
+        margin-top: 7vw;
+    }
+
+    .about_company > button{
+        grid-row: 17/20;
+        grid-column: 17/27;
+        font-size: 1.8vw;
+    }
+
+    footer{
+        height: 25vw;
+    }
+
+    .footer > div > p > br{
+        display: none;
+    }
+    
+    .footer > div > p{
+        font-size: 1.5vw;
+    }
+
+    .footer > .logo > p{
+        margin-top: 2vw;
+    }
+
+    .footer > .logo{
+        width: 25vw;
+    }
+
+    .footer > div > h1{
+        font-size: 1.8vw;
+        margin-top: 0;
+    }
+
+    .footer > .contacts > h1{
+        font-size: 2.3vw;
+    }
+
+    .footer > .contacts > p{
+        font-size: 1.5vw;
+    }
+
+    .footer_inf > p{
+        font-size: 1.4vw;
+    }
+}
